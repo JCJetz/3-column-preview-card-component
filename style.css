@@ -1,0 +1,234 @@
+ 
+/* Fonts
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+
+*/
+
+:root {
+    --Bright-orange:               hsl(31, 77%, 52%);
+    --Dark-cyan:                   hsl(184, 100%, 22%);
+    --Very-dark-cyan:              hsl(179, 100%, 13%);
+    --Very-light-gray:             hsl(0, 0%, 95%);
+    --Transparent-white:           hsla(0, 0%, 100%, 0.75)
+}
+
+/*Very-light-gray (background, headings, buttons)*/
+/*Transparent-white (paragraphs) */
+
+
+
+
+ * {
+    margin: 0;
+    padding: ;
+    box-sizing: border-box; 
+}
+
+html {
+    font-family: 'Big Shoulders Display' cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    color: plum;
+}
+
+a {
+    background-color: transparent;
+  }
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1088px;
+    height: 1058px;
+    margin: auto; 
+}
+
+   
+main {
+    width: 920px;
+    height: 503px;
+    display: flex;  
+}
+
+
+.card {
+    display: flex;
+    padding: 3rem 3rem 3.9rem 3rem;
+}
+
+
+
+/*  h1  */
+.card-Sedans h1 {
+    font-family: "Big Shoulders Display";
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 3.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;    
+}
+
+.card-SUVs h1 {
+    font-family: "Big Shoulders Display";
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 3.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;    
+}
+
+.card-Luxury h1 {
+    font-family: "Big Shoulders Display";
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 3.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;  
+}
+
+/*  card  */
+.card-Sedans {
+        height: 500;
+        float: left;
+        width: 33.33%;
+        padding: 3rem 3rem 3.9rem 3rem;
+        background-color: var(--Bright-orange); 
+        border-radius: 10px 0 0 10px;        
+}
+
+.card-SUVs {
+    height: 500;
+    float: left;
+    width: 33.33%;
+    background-color: var(--Dark-cyan);
+    padding: 3rem 3rem 3.9rem 3rem;
+}
+
+.card-Luxury {
+    height: 500;
+    width: 33.33%;
+    float: left;
+    background-color:var(--Very-dark-cyan); 
+    border-radius: 0 10px 10px 0;   
+   /* padding: 1rem 1rem 1rem 1rem; */
+   padding: 3rem 3rem 3.9rem 3rem;
+}
+
+
+
+
+button {
+color: white;
+background-color: white;
+border-style: solid;
+border-color: white ; 
+}
+
+
+
+.btn-1 {
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.9rem 2rem;
+    text-decoration: none;
+    font-family: 'Lexend Deca';
+    border-radius: 35px;
+    color: var(--Bright-orange); 
+    margin-top: 4rem;
+    border-color: white;
+}
+
+.btn-2 {
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.9rem 2rem;
+    text-decoration: none;
+    font-family: 'Lexend Deca';
+    border-radius: 35px;
+    color: var(--Dark-cyan); 
+    margin-top: 4rem;
+    border-color: white;
+}
+
+.btn-3 {
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.9rem 2rem;
+    text-decoration: none;
+    font-family: 'Lexend Deca';
+    border-radius: 35px;
+    color: var(--Very-dark-cyan); 
+    margin-top: 4rem;
+    border-color: white;
+}
+
+button:hover {
+    background-color: transparent;
+    color: var(--Very-light-gray);
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+
+.img .card-Sedans {
+    content: url(./images/icon-sedans.svg);
+    margin-bottom: 2rem;
+    height: 64px;
+    width: 40;
+}
+
+
+p {
+    margin-top: 1.5rem;
+    line-height: 1.6rem;
+    font-family: "Lexend Deca";
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   
+    */
+}
+
+
+@media screen and (max-width: 400px) {
+    body {
+      padding-top: 2rem;
+      height: auto;
+    }
+    main {
+      flex-flow: column;
+      margin: 0 auto;
+      width: 100%;
+    }
+    p {
+      margin-bottom: 2.5rem;
+    }
+  /*  .attribution  {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;
+       
+    }  */
+    
+    .card-Sedans {
+
+        border-radius: 10px 10px 0 0;
+    }
+    .card-Luxury {
+        border-radius:  0 0 10px 10px;
+    }
+
+  }
