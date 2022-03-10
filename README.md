@@ -14,7 +14,7 @@ This is my solution to the 3-column preview card component challenge on Frontend
 
 
 
-The challenge
+### The challenge
 
 Users should be able to:
 
@@ -30,7 +30,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ### Useful Resources 
 
-⭐[Media Queries](https://www.w3.org/TR/css3-mediaqueries/)
+⭐ [Media Queries](https://www.w3.org/TR/css3-mediaqueries/)
 
 ⭐ [CSS media queries](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
 
