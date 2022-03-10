@@ -30,11 +30,11 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ### Useful Resources 
 
-⭐ https://www.w3.org/TR/css3-mediaqueries/
+⭐[Media Queries](https://www.w3.org/TR/css3-mediaqueries/)
 
-⭐ https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries
+⭐ [CSS media queries](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries)
 
-⭐ https://3con14.biz/css/unidades,-color/11-unidades-en-css.html
+⭐ [Unidades en CSS](https://3con14.biz/css/unidades,-color/11-unidades-en-css.html)
 
 
 
