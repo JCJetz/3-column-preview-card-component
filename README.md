@@ -9,8 +9,8 @@ This is my solution to the 3-column preview card component challenge on Frontend
 
 
 
-- Solution Frontend Mentor: [@JCJetz](https://www.frontendmentor.io/profile/JCJetz)
-- Live Site URL: [github](https://jcjetz.github.io/3-column-preview-card-component/)
+- [Solution Frontend Mentor](https://www.frontendmentor.io/profile/JCJetz)
+- [Live Site URL](https://jcjetz.github.io/3-column-preview-card-component/)
 
 
 
