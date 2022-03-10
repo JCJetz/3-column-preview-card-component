@@ -22,12 +22,6 @@ View the optimal layout depending on their device's screen size.
 See hover states for interactive elements.
 
 
-
-
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
-
-
-
 ### Useful Resources 
 
 ⭐ [Media Queries](https://www.w3.org/TR/css3-mediaqueries/)
