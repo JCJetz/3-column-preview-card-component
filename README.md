@@ -3,8 +3,14 @@
 This is my solution to the 3-column preview card component challenge on Frontend Mentor
 
 
-- Solution Frontend Mentor: [@yourusername](https://www.frontendmentor.io/profile/JCJetz)
-- Live Site URL: [Add live site URL here](https://jcjetz.github.io/3-column-preview-card-component/)
+### Screenshot
+
+![PREVIEW](images/Screenshot_3_column_card.png)
+
+
+
+- Solution Frontend Mentor: [@JCJetz](https://www.frontendmentor.io/profile/JCJetz)
+- Live Site URL: [github](https://jcjetz.github.io/3-column-preview-card-component/)
 
 
 
@@ -16,14 +22,19 @@ View the optimal layout depending on their device's screen size.
 See hover states for interactive elements.
 
 
+
+
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 
-### Useful Resources
 
-https://www.w3.org/TR/css3-mediaqueries/
-https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries
-https://3con14.biz/css/unidades,-color/11-unidades-en-css.html
+### Useful Resources 
+
+⭐ https://www.w3.org/TR/css3-mediaqueries/
+
+⭐ https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries
+
+⭐ https://3con14.biz/css/unidades,-color/11-unidades-en-css.html
 
 
 
@@ -32,9 +43,6 @@ https://3con14.biz/css/unidades,-color/11-unidades-en-css.html
 - Semantic HTML
 - CSS custom properties
 
-### Screenshot
-
-![PREVIEW](images/screenshot_3_column_card.png)
 
 
 
