@@ -24,7 +24,7 @@
 
  * {
     margin: 0;
-    padding: ;
+    padding: 0;
     box-sizing: border-box; 
 }
 
@@ -40,14 +40,13 @@ a {
 
 body {
     background-color: hsl(0, 0%, 95%);
+    min-width: 100vw;
     min-height: 100vh;
     font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1088px;
-    height: 1058px;
     margin: auto; 
 }
 
@@ -56,7 +55,11 @@ main {
     width: 920px;
     height: 503px;
     display: flex;  
+    justify-content: center;
+    align-self: center;
+
 }
+
 
 
 .card {
@@ -99,7 +102,7 @@ main {
 
 /*  card  */
 .card-Sedans {
-        height: 500;
+        height: 500px;
         float: left;
         width: 33.33%;
         padding: 3rem 3rem 3.9rem 3rem;
@@ -108,7 +111,7 @@ main {
 }
 
 .card-SUVs {
-    height: 500;
+    height: 500px;
     float: left;
     width: 33.33%;
     background-color: var(--Dark-cyan);
@@ -116,7 +119,7 @@ main {
 }
 
 .card-Luxury {
-    height: 500;
+    height: 500px;
     width: 33.33%;
     float: left;
     background-color:var(--Very-dark-cyan); 
@@ -183,7 +186,6 @@ button:hover {
     content: url(./images/icon-sedans.svg);
     margin-bottom: 2rem;
     height: 64px;
-    width: 40;
 }
 
 
